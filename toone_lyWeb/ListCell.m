@@ -7,11 +7,11 @@
 //
 
 #import "ListCell.h"
-#import "webList_Model.h"
-
+#import "UIImageView+WebCache.h"
 @interface ListCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *icon;
 @property (weak, nonatomic) IBOutlet UILabel *bigLabel;
+@property (weak, nonatomic) IBOutlet UILabel *subTitleLab;
 
 
 @end
@@ -22,10 +22,11 @@
 }
 
 
--(void)setModel:(webList_Model *)model {
+-(void)setModel:(Data *)model {
     _model = model;
-    _bigLabel.text = model.banhezhanminchen;
-    _icon.image = [UIImage imageNamed:model.icon];
+    _bigLabel.text = model.title;
+    _subTitleLab.text = model.xiangmubuname;
+    [_icon sd_setImageWithURL:model.imgname placeholderImage:@"隐患排查"];
 }
 
 @end

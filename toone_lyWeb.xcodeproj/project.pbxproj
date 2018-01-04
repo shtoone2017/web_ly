@@ -24,6 +24,8 @@
 		428CBA431FFB66C4000F0AD9 /* EditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428CBA411FFB66C4000F0AD9 /* EditController.m */; };
 		428CBA441FFB66C4000F0AD9 /* EditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA421FFB66C4000F0AD9 /* EditController.xib */; };
 		74C40902F7299E6969130EA5 /* libPods-toone_lyWeb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24179FC9770EAB2DA55548FE /* libPods-toone_lyWeb.a */; };
+		9C8D71131FFE08AB00763EEE /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D71121FFE08AB00763EEE /* Data.m */; };
+		9C8D71161FFE0AC600763EEE /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D71151FFE0AC600763EEE /* BaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,11 @@
 		428CBA401FFB66C4000F0AD9 /* EditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditController.h; sourceTree = "<group>"; };
 		428CBA411FFB66C4000F0AD9 /* EditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditController.m; sourceTree = "<group>"; };
 		428CBA421FFB66C4000F0AD9 /* EditController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditController.xib; sourceTree = "<group>"; };
+		9C8D71111FFE08AB00763EEE /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		9C8D71121FFE08AB00763EEE /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		9C8D71141FFE0AC600763EEE /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		9C8D71151FFE0AC600763EEE /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		9C8D71171FFE15EF00763EEE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D1C228C60FCD6779DB962CD1 /* Pods-toone_lyWeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toone_lyWeb.release.xcconfig"; path = "Pods/Target Support Files/Pods-toone_lyWeb/Pods-toone_lyWeb.release.xcconfig"; sourceTree = "<group>"; };
 		D424D99A28DA36E241DC18D3 /* Pods-toone_lyWeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toone_lyWeb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toone_lyWeb/Pods-toone_lyWeb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +82,7 @@
 		428CB9E81FFB1FB3000F0AD9 = {
 			isa = PBXGroup;
 			children = (
+				9C8D71171FFE15EF00763EEE /* PrefixHeader.pch */,
 				428CB9F31FFB1FB3000F0AD9 /* toone_lyWeb */,
 				428CB9F21FFB1FB3000F0AD9 /* Products */,
 				561223FCA232C7D19622C5A1 /* Pods */,
@@ -93,6 +101,7 @@
 		428CB9F31FFB1FB3000F0AD9 /* toone_lyWeb */ = {
 			isa = PBXGroup;
 			children = (
+				9C8D71101FFE089E00763EEE /* Model */,
 				428CB9F71FFB1FB3000F0AD9 /* AppDelegate.h */,
 				428CB9F81FFB1FB3000F0AD9 /* AppDelegate.m */,
 				428CB9FA1FFB1FB3000F0AD9 /* ViewController.h */,
@@ -155,6 +164,17 @@
 				D1C228C60FCD6779DB962CD1 /* Pods-toone_lyWeb.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C8D71101FFE089E00763EEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C8D71141FFE0AC600763EEE /* BaseModel.h */,
+				9C8D71151FFE0AC600763EEE /* BaseModel.m */,
+				9C8D71111FFE08AB00763EEE /* Data.h */,
+				9C8D71121FFE08AB00763EEE /* Data.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C59834741E71E8CCBB9522B9 /* Frameworks */ = {
@@ -304,10 +324,12 @@
 				428CB9F91FFB1FB3000F0AD9 /* AppDelegate.m in Sources */,
 				428CBA381FFB61CD000F0AD9 /* UIButton+Img_20.m in Sources */,
 				428CBA3E1FFB62F8000F0AD9 /* Colours.m in Sources */,
+				9C8D71161FFE0AC600763EEE /* BaseModel.m in Sources */,
 				428CB9F61FFB1FB3000F0AD9 /* main.m in Sources */,
 				428CBA351FFB6121000F0AD9 /* MyNavigationController.m in Sources */,
 				428CBA131FFB25BA000F0AD9 /* webList_Model.m in Sources */,
 				428CBA101FFB256C000F0AD9 /* MyModel.m in Sources */,
+				9C8D71131FFE08AB00763EEE /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +451,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MWKKG6D7EX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = toone_lyWeb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.shtoone.toone-lyWeb";
@@ -442,6 +466,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MWKKG6D7EX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = toone_lyWeb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.shtoone.toone-lyWeb";

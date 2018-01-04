@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-@class webList_Model;
+#import "Data.h"
 @interface ListCell : UITableViewCell
-@property (nonatomic, strong) webList_Model *model;
+@property (nonatomic, strong) Data *model;
 
 @end
