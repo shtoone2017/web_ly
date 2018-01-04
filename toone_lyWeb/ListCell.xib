@@ -29,7 +29,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海同望上海同望" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yka-8L-cEV">
-                                <rect key="frame" x="83" y="16" width="223" height="17"/>
+                                <rect key="frame" x="83" y="16" width="223" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -48,11 +48,11 @@
                             <constraint firstAttribute="trailing" secondItem="yka-8L-cEV" secondAttribute="trailing" constant="14" id="J24-pM-nMy"/>
                             <constraint firstItem="NBi-SU-bhf" firstAttribute="leading" secondItem="Lll-JJ-4Nk" secondAttribute="leading" constant="8" id="LlP-cW-PFX"/>
                             <constraint firstItem="yka-8L-cEV" firstAttribute="top" secondItem="NBi-SU-bhf" secondAttribute="top" constant="6" id="LnK-V7-Xaw"/>
-                            <constraint firstItem="T0X-kS-lc4" firstAttribute="height" secondItem="yka-8L-cEV" secondAttribute="height" constant="2" id="mF8-NR-TH9"/>
+                            <constraint firstItem="T0X-kS-lc4" firstAttribute="height" secondItem="yka-8L-cEV" secondAttribute="height" constant="-23" id="mF8-NR-TH9"/>
                             <constraint firstItem="T0X-kS-lc4" firstAttribute="bottom" secondItem="NBi-SU-bhf" secondAttribute="bottom" constant="-6" id="meL-nK-DPC"/>
                             <constraint firstItem="T0X-kS-lc4" firstAttribute="leading" secondItem="yka-8L-cEV" secondAttribute="leading" id="tMN-kr-VhW"/>
                             <constraint firstItem="T0X-kS-lc4" firstAttribute="width" secondItem="yka-8L-cEV" secondAttribute="width" id="tdC-iK-MhM"/>
-                            <constraint firstItem="yka-8L-cEV" firstAttribute="bottom" secondItem="NBi-SU-bhf" secondAttribute="bottom" constant="-33" id="tmq-Tf-SMM"/>
+                            <constraint firstItem="yka-8L-cEV" firstAttribute="bottom" secondItem="NBi-SU-bhf" secondAttribute="bottom" constant="-8" id="tmq-Tf-SMM"/>
                         </constraints>
                     </view>
                 </subviews>

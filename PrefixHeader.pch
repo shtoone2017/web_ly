@@ -8,7 +8,9 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
-#define BaseUrl @"http://192.168.0.116:8080/qhysmss/app/xiangmuliebiaopeizhiList"
+#define BaseUrl @"http://192.168.0.116:8080/qhysmss/app/xiangmuliebiaopeizhigetList"
+#define ImgURL_Base @"http://192.168.0.116:8080/qhysmss/appimage/"
+#define ImgUrl(imgName) [NSString stringWithFormat:@"%@%@",ImgURL_Base,imgName]
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

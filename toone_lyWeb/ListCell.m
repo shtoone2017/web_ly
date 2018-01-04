@@ -26,7 +26,7 @@
     _model = model;
     _bigLabel.text = model.title;
     _subTitleLab.text = model.xiangmubuname;
-    [_icon sd_setImageWithURL:model.imgname placeholderImage:@"隐患排查"];
+    [_icon sd_setImageWithURL:[NSURL URLWithString:ImgUrl(model.imgname)] placeholderImage:[UIImage imageNamed:@"隐患排查"]];
 }
 
 @end
