@@ -12,7 +12,6 @@
 @interface ListCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *icon;
 @property (weak, nonatomic) IBOutlet UILabel *bigLabel;
-@property (weak, nonatomic) IBOutlet UILabel *subtitleLabel;
 
 
 @end
@@ -27,7 +26,6 @@
 -(void)setModel:(webList_Model *)model {
     _model = model;
     _bigLabel.text = model.banhezhanminchen;
-    _subtitleLabel.text = model.departid;
     _icon.image = [UIImage imageNamed:model.icon];
 }
 
