@@ -27,6 +27,7 @@
  + (instancetype)waveColor;
  */
 #define Screen_w      [UIScreen mainScreen].bounds.size.width
+#define NavColor   [UIColor colorWithRed:54/255.0f green:60/255.0f blue:60/255.0f alpha:1]
 
 @interface MyNavigationController ()
 @property(nonatomic,strong) UIView *statusBarView;
@@ -37,11 +38,11 @@
 -(void)viewDidLoad{
     [super viewDidLoad];
     UIView *statusBarView = [[UIView alloc] initWithFrame:CGRectMake(0, -20, Screen_w, 20)];
-    statusBarView.backgroundColor= [UIColor denimColor];
+    statusBarView.backgroundColor= NavColor;
     [self.navigationBar addSubview:statusBarView];
     self.statusBarView = statusBarView;
     
-    [[UINavigationBar appearance] setBackgroundColor:[UIColor denimColor]];
+    [[UINavigationBar appearance] setBackgroundColor:NavColor];
     [[UINavigationBar appearance] setTranslucent:YES];
     [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];

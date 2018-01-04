@@ -18,17 +18,6 @@
 		428CBA161FFB26E0000F0AD9 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428CBA151FFB26E0000F0AD9 /* WebViewController.m */; };
 		428CBA1A1FFB28CB000F0AD9 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 428CBA181FFB28CB000F0AD9 /* ListCell.m */; };
 		428CBA1B1FFB28CB000F0AD9 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA191FFB28CB000F0AD9 /* ListCell.xib */; };
-		428CBA281FFB2F6E000F0AD9 /* BIM.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA1D1FFB2F6E000F0AD9 /* BIM.png */; };
-		428CBA291FFB2F6E000F0AD9 /* 人员定位.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA1E1FFB2F6E000F0AD9 /* 人员定位.png */; };
-		428CBA2A1FFB2F6E000F0AD9 /* 压实机械.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA1F1FFB2F6E000F0AD9 /* 压实机械.png */; };
-		428CBA2B1FFB2F6E000F0AD9 /* 张拉压浆.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA201FFB2F6E000F0AD9 /* 张拉压浆.png */; };
-		428CBA2C1FFB2F6E000F0AD9 /* 微课堂.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA211FFB2F6E000F0AD9 /* 微课堂.png */; };
-		428CBA2D1FFB2F6E000F0AD9 /* 无人机.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA221FFB2F6E000F0AD9 /* 无人机.png */; };
-		428CBA2E1FFB2F6E000F0AD9 /* 沥青.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA231FFB2F6E000F0AD9 /* 沥青.png */; };
-		428CBA2F1FFB2F6E000F0AD9 /* 考勤.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA241FFB2F6E000F0AD9 /* 考勤.png */; };
-		428CBA301FFB2F6E000F0AD9 /* 视频监控.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA251FFB2F6E000F0AD9 /* 视频监控.png */; };
-		428CBA311FFB2F6E000F0AD9 /* 隐患分析.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA261FFB2F6E000F0AD9 /* 隐患分析.png */; };
-		428CBA321FFB2F6E000F0AD9 /* 隐患排查.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CBA271FFB2F6E000F0AD9 /* 隐患排查.png */; };
 		428CBA351FFB6121000F0AD9 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428CBA341FFB6121000F0AD9 /* MyNavigationController.m */; };
 		428CBA381FFB61CD000F0AD9 /* UIButton+Img_20.m in Sources */ = {isa = PBXBuildFile; fileRef = 428CBA371FFB61CD000F0AD9 /* UIButton+Img_20.m */; };
 		428CBA3E1FFB62F8000F0AD9 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 428CBA3B1FFB62F8000F0AD9 /* Colours.m */; };
@@ -58,17 +47,6 @@
 		428CBA171FFB28CB000F0AD9 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
 		428CBA181FFB28CB000F0AD9 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		428CBA191FFB28CB000F0AD9 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
-		428CBA1D1FFB2F6E000F0AD9 /* BIM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BIM.png; sourceTree = "<group>"; };
-		428CBA1E1FFB2F6E000F0AD9 /* 人员定位.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人员定位.png"; sourceTree = "<group>"; };
-		428CBA1F1FFB2F6E000F0AD9 /* 压实机械.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "压实机械.png"; sourceTree = "<group>"; };
-		428CBA201FFB2F6E000F0AD9 /* 张拉压浆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "张拉压浆.png"; sourceTree = "<group>"; };
-		428CBA211FFB2F6E000F0AD9 /* 微课堂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微课堂.png"; sourceTree = "<group>"; };
-		428CBA221FFB2F6E000F0AD9 /* 无人机.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无人机.png"; sourceTree = "<group>"; };
-		428CBA231FFB2F6E000F0AD9 /* 沥青.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沥青.png"; sourceTree = "<group>"; };
-		428CBA241FFB2F6E000F0AD9 /* 考勤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "考勤.png"; sourceTree = "<group>"; };
-		428CBA251FFB2F6E000F0AD9 /* 视频监控.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频监控.png"; sourceTree = "<group>"; };
-		428CBA261FFB2F6E000F0AD9 /* 隐患分析.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "隐患分析.png"; sourceTree = "<group>"; };
-		428CBA271FFB2F6E000F0AD9 /* 隐患排查.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "隐患排查.png"; sourceTree = "<group>"; };
 		428CBA331FFB6121000F0AD9 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyNavigationController.h; path = icon/MyNavigationController.h; sourceTree = "<group>"; };
 		428CBA341FFB6121000F0AD9 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyNavigationController.m; path = icon/MyNavigationController.m; sourceTree = "<group>"; };
 		428CBA361FFB61CD000F0AD9 /* UIButton+Img_20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Img_20.h"; sourceTree = "<group>"; };
@@ -151,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				428CBA391FFB62F8000F0AD9 /* 颜色篇 */,
-				428CBA1C1FFB2F6E000F0AD9 /* icon */,
 				428CBA331FFB6121000F0AD9 /* MyNavigationController.h */,
 				428CBA341FFB6121000F0AD9 /* MyNavigationController.m */,
 				428CBA0E1FFB256C000F0AD9 /* MyModel.h */,
@@ -160,24 +137,6 @@
 				428CBA371FFB61CD000F0AD9 /* UIButton+Img_20.m */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		428CBA1C1FFB2F6E000F0AD9 /* icon */ = {
-			isa = PBXGroup;
-			children = (
-				428CBA1D1FFB2F6E000F0AD9 /* BIM.png */,
-				428CBA1E1FFB2F6E000F0AD9 /* 人员定位.png */,
-				428CBA1F1FFB2F6E000F0AD9 /* 压实机械.png */,
-				428CBA201FFB2F6E000F0AD9 /* 张拉压浆.png */,
-				428CBA211FFB2F6E000F0AD9 /* 微课堂.png */,
-				428CBA221FFB2F6E000F0AD9 /* 无人机.png */,
-				428CBA231FFB2F6E000F0AD9 /* 沥青.png */,
-				428CBA241FFB2F6E000F0AD9 /* 考勤.png */,
-				428CBA251FFB2F6E000F0AD9 /* 视频监控.png */,
-				428CBA261FFB2F6E000F0AD9 /* 隐患分析.png */,
-				428CBA271FFB2F6E000F0AD9 /* 隐患排查.png */,
-			);
-			path = icon;
 			sourceTree = "<group>";
 		};
 		428CBA391FFB62F8000F0AD9 /* 颜色篇 */ = {
@@ -268,22 +227,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428CBA2F1FFB2F6E000F0AD9 /* 考勤.png in Resources */,
-				428CBA2E1FFB2F6E000F0AD9 /* 沥青.png in Resources */,
-				428CBA2D1FFB2F6E000F0AD9 /* 无人机.png in Resources */,
-				428CBA281FFB2F6E000F0AD9 /* BIM.png in Resources */,
 				428CBA041FFB1FB3000F0AD9 /* LaunchScreen.storyboard in Resources */,
-				428CBA321FFB2F6E000F0AD9 /* 隐患排查.png in Resources */,
 				428CBA441FFB66C4000F0AD9 /* EditController.xib in Resources */,
-				428CBA2C1FFB2F6E000F0AD9 /* 微课堂.png in Resources */,
-				428CBA301FFB2F6E000F0AD9 /* 视频监控.png in Resources */,
 				428CBA011FFB1FB3000F0AD9 /* Assets.xcassets in Resources */,
 				428CB9FF1FFB1FB3000F0AD9 /* Main.storyboard in Resources */,
-				428CBA2B1FFB2F6E000F0AD9 /* 张拉压浆.png in Resources */,
-				428CBA311FFB2F6E000F0AD9 /* 隐患分析.png in Resources */,
 				428CBA1B1FFB28CB000F0AD9 /* ListCell.xib in Resources */,
-				428CBA2A1FFB2F6E000F0AD9 /* 压实机械.png in Resources */,
-				428CBA291FFB2F6E000F0AD9 /* 人员定位.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

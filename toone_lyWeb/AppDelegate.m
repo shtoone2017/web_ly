@@ -33,7 +33,7 @@
     NSMutableDictionary *dic0 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"质量安全隐患排查APP",@"banhezhanminchen",@"http://192.168.10.202:10080/finddanger/login",@"departid",@"隐患排查.png",@"icon",nil];
     NSMutableDictionary *dic1 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"质量安全隐患分析系统",@"banhezhanminchen",@"http://121.40.111.204:18080/ny1/login",@"departid",@"隐患分析.png",@"icon",nil];
     NSMutableDictionary *dic2 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"重要工点视频监控系统",@"banhezhanminchen",@"http://119.135.189.2/doc/page/login.asp?",@"departid",@"视频监控.png",@"icon",nil];
-    NSMutableDictionary *dic3 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"劳务工考勤系统",@"banhezhanminchen",@"http://119.135.189.2:8080/accounts/login/?next=/data/index/",@"departid",@"考勤.png.png",@"icon",nil];
+    NSMutableDictionary *dic3 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"劳务工考勤系统",@"banhezhanminchen",@"http://119.135.189.2:8080/accounts/login/?next=/data/index/",@"departid",@"考勤.png",@"icon",nil];
     NSMutableDictionary *dic4 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"BIM系统",@"banhezhanminchen",@"http://117.40.181.125:801/admin/login.aspx",@"departid",@"BIM.png",@"icon",nil];
     NSMutableDictionary *dic5 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"智能张拉压浆监控系统",@"banhezhanminchen",@"http://115.28.52.169:88/ADMIN/login.aspx",@"departid",@"张拉压浆.png",@"icon",nil];
     NSMutableDictionary *dic6 = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"沥青拌合站数据同步系统",@"banhezhanminchen",@"http://112.124.12.254:8082/lygsmss/login.jsp",@"departid",@"沥青.png",@"icon",nil];
