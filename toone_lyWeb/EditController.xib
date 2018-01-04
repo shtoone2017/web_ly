@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditController">
+            <connections>
+                <outlet property="textField" destination="ucR-mJ-irL" id="aTZ-Kl-vSL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3z1-Uh-rGw">
+                    <rect key="frame" x="0.0" y="74" width="375" height="44"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="https://www.baidu.com/" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ucR-mJ-irL">
+                            <rect key="frame" x="8" y="0.0" width="359" height="44"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ucR-mJ-irL" firstAttribute="centerY" secondItem="3z1-Uh-rGw" secondAttribute="centerY" id="8oM-JI-JDN"/>
+                        <constraint firstItem="ucR-mJ-irL" firstAttribute="leading" secondItem="3z1-Uh-rGw" secondAttribute="leading" constant="8" id="BO3-T1-qme"/>
+                        <constraint firstItem="ucR-mJ-irL" firstAttribute="centerX" secondItem="3z1-Uh-rGw" secondAttribute="centerX" id="PIN-Hs-Qn7"/>
+                        <constraint firstItem="ucR-mJ-irL" firstAttribute="top" secondItem="3z1-Uh-rGw" secondAttribute="top" id="f0h-ki-QeK"/>
+                        <constraint firstAttribute="height" constant="44" id="l42-NQ-SpR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="3z1-Uh-rGw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ged-6t-3PP"/>
+                <constraint firstItem="3z1-Uh-rGw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="b4g-7t-PST"/>
+                <constraint firstAttribute="trailing" secondItem="3z1-Uh-rGw" secondAttribute="trailing" id="k5X-v6-B3j"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
