@@ -455,7 +455,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = toone_lyWeb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.shtoone.toone-lyWeb";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shtoone.zhpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -470,7 +470,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = toone_lyWeb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.shtoone.toone-lyWeb";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shtoone.zhpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

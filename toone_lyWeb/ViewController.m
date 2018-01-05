@@ -32,7 +32,7 @@
     [_header beginRefreshing];
 }
 -(void)loadUI{
-    self.title = @"上海同望";
+    self.title = @"综合平台";
     self.tb = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
     self.tb.delegate = self;
     self.tb.dataSource = self;
