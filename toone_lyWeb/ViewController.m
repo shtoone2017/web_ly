@@ -86,11 +86,19 @@
     return 70.0;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    WebViewController *vc = [[WebViewController alloc] init];
     Data *model = [self.data objectAtIndex:indexPath.row];
-    vc.urlString = model.url;
-    vc.title = model.title;
-    [self.navigationController pushViewController:vc animated:YES];
+    if (model.url.length <=5)
+    {
+        [SVProgressHUD showErrorWithStatus:@"链接不存在,请联系管理员添加系统链接"];
+    }
+    else
+    {
+        WebViewController *vc = [[WebViewController alloc] init];
+        vc.urlString = model.url;
+        vc.title = model.title;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
 }
 
 @end
